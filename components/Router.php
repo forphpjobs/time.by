@@ -26,7 +26,7 @@ class Router
                 $controller=ucfirst(array_shift($path2))."Controller";
                 $action="action".ucfirst(array_shift($path2));
                 $params=$path2;
-                var_dump($controller);
+               //var_dump($controller);
 
                 if (file_exists("controllers/$controller.php")){
                     include_once "controllers/$controller.php";

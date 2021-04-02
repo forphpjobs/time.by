@@ -1,0 +1,32 @@
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+.fleft {float:left}
+.fright {float:right}
+.fcenter {float:none;margin:0 auto;width:61%}
+.fclear {clear:both}
+body {background:#090327 url(../images/bodyBackground.jpg) left top no-repeat;font-family:'Lucida Sans Unicode',Arial,sans-serif;color:#fff;text-align:center;padding:50px 0}
+* {margin:0;padding:0}
+div,p,li {font-size:12px}
+li {margin-left:16px}
+a {color:#fff;font-weight:bold;text-decoration:underline;font-size:14px}
+a:hover {color:#f1ade7;text-decoration:none;font-size:14px}
+h1 {color:#0061CA;text-align:center;padding-bottom:10px}
+h2 {color:#999;font-size:16px;font-weight:normal}
+h4 {color:#fff}
+pre {background:#666;color:#fff;padding:10px;margin:10px;height:auto;overflow:auto;font:12px Verdana,Courier,sans-serif}
+* html pre {width:100%}
+.description {padding:16px;margin:10px 0;background:#eee}
+.sample {padding:55px 30px;margin:4px 0 25px 0;border:1px solid #e1e1e1;background:#3a1f58 url(../images/sampleBackground.jpg) no-repeat}
+h4 span {background:none !important}
+.links {padding:10px;margin-top:20px}
+.links a {font-size:14px;color:#0080FF;text-decoration:none}
+.links a:hover {font-weight:bold}
+#cont {width:800px;margin-top:70px !important;margin:0 auto;text-align:left;padding:10px}
+.buttons {padding:5px;background:#975b8e}
+.buttons span {color:#fff;padding:0 5px;cursor:pointer;font:12px Verdana;font-weight:bold}
+.buttons span.active, .buttons span:hover {background:#fff;color:#090327}
+.logo {padding:0 0 0 20px;float:left}
+.logo h1 {color:#F7D700;font-size:30px}
+.logo h3 {font-size:12px;color:#fff;font-weight:normal}
+#footer {color:#fff;margin:10px}
+#footer a {color:#fff;font-size:10px}
+ul {list-style:none}
