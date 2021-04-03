@@ -6,7 +6,14 @@ class Content
     public static function getContentAbout(){
 
         $db=Db::connect();
-        $query=$db->query("SELECT content FROM content")->fetch(PDO::FETCH_ASSOC);
+        $query=$db->query("SELECT content FROM content where name='about'")->fetch(PDO::FETCH_ASSOC);
+        return $query;
+    }
+
+    public static function getContentPortfolio(){
+
+        $db=Db::connect();
+        $query=$db->query("SELECT content FROM content where name='portfolio'")->fetch(PDO::FETCH_ASSOC);
         return $query;
     }
 }

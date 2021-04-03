@@ -4,7 +4,7 @@ if (isset($_POST['submit'])){
     if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['text'])){
         $name=htmlentities(strip_tags($_POST['name']),ENT_QUOTES);
         $email=htmlentities(strip_tags($_POST['email']), ENT_QUOTES);
-        $text=htmlentities(strip_tags($_POST['text']));
+        $text=htmlentities(strip_tags($_POST['text']),ENT_QUOTES);
         include_once "model/Contact.php";
         $result=Contact::setContacts($name,$email,$text);
         if($result){
