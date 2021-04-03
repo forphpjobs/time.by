@@ -7,39 +7,21 @@
     <meta name="description" content="" />
     <link rel="stylesheet" href="../assets/css/_web.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../assets/css/style.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="../assets/js/mootools-1.2-core.js"></script>
-    <script type="text/javascript" src="../assets/js/_class.noobSlide.packed.js"></script>
-    <script type="text/javascript">
-        window.addEvent('domready',function(){
 
-            var nS4 = new noobSlide({
-                box: $('box4'),
-                items: $$('#box4 div'),
-                size: 740,
-                handles: $$('#handles4 span'),
-                onWalk: function(currentItem,currentHandle){
-                    $('info4').set('html',currentItem.getFirst().innerHTML);
-                    this.handles.removeClass('active');
-                    currentHandle.addClass('active');
-                }
-            });
-        });
-    </script>
+
 </head>
 <body>
-<div class="logo">
-    <h1>Thunderbolt</h1>
-    <h3>by FreeCssTemplate.net</h3>
-</div>
+
 <div id="cont"><div class="inner_copy"></div>
     <p class="buttons" id="handles4">
-        <span>Home</span>
-        <span>About</span>
-        <span>Blog</span>
-        <span>Portfolio</span>
-        <span>Contact</span>
+        <span><a href='/'>Home</a></span>
+        <span><a href='about'>About</a></span>
+        <span><a href='blog'>Blog</a></span>
+        <span><a href='portfolio'>Portfolio</a></span>
+        <span><a href='contact'>Contact</a></span>
+        <span><?php echo $date?></span>
     </p>
-    <h4>Your Title Page: <span id="info4"></span></h4>
+    <h4> 	&#160; <span id="info4"></span></h4>
     <div class="sample">
         <div class="mask3">
             <div id="box4">
@@ -118,15 +100,12 @@
 <div id="footer">
     <div class="fcenter">
         <div class="container">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" style="height:75px; width:560px">
-                <tbody>
-                <tr>
-                    <td style="height:75px; text-align:center; vertical-align:middle; width:560px">
-                        <p><a href="http://partners-pro.ru" target="_blank"><img alt="Изготовление партнёрских интернет-магазинов и бесплатных сайтов" src="http://partners-pro.ru/site-free/banner.gif" style="height:75px; width:560px" /></a></p>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <?php
+
+            //echo $a->format('Y').'|';
+           // echo $a->add(new DateInterval('P1Y'))->format('Y');
+            ?>
+            <h1>&#177;<?php echo $a->format('Y')?></h1>
         </div>
     </div>
 </div>
