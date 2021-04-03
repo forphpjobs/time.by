@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset=utf-8">
     <title>FreeCssTemplate.net</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -33,17 +34,8 @@
         <div class="mask3">
             <div id="box4">
                 <!--begin HOME page-->
-                <div>
-                    <h3>Home Page</h3>
-                    <img src="../assets/images/image1.jpg" alt="Photo" />
-                    <p>
-                        This website template is repeased under a Creative Commons Attribution 2.5 License<br/><br/>We request you retain the full copyright notice below including the link to www.freecsstemplate.net. This not only gives respect to the large amount of time given freely by the developers but also helps build interest, traffic and use of our free and paid designs. If you cannot (for good reason) retain the full copyright we request you at least leave in place the Website Templates line, with Website Templates linked to www.freecsstemplate.net. If you refuse to include even this then support may be affected.<br/><br/>You are allowed to use this design only if you agree to the following conditions:<br/>- You cannot remove copyright notice from this design without our permission.<br/>- If you modify this design it still should contain copyright because it is based on our work.<br/>- You may copy, distribute, modify, etc... this tem plate as long as link to our website remains untouched.<br/>
-                    </p>				</div>
 
 
 
-            </div>
-        </div>
-    </div>
-</div>
+
 
